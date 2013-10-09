@@ -1,0 +1,22 @@
+# IDEA Ignores####
+##################
+*.iml
+*.ipr
+*.iws
+.idea/
+local.properties
+
+# Java class files####
+######################
+*.class
+
+# MAC####
+#########
+*.DS_Store
+
+#GRADLE####
+###########
+.gradle/
+app/build/
+build/
+core/build/
