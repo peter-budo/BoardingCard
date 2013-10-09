@@ -16,3 +16,6 @@ BoardingCard Code Test
   13. `git merge develop`
   14. `git push origin master`
   15. `git checkout -b android_ui`
+  16. Android UI
+  17. `git checkout master`
+  18. `git merge android _ui`
