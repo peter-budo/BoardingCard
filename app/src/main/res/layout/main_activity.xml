@@ -11,13 +11,22 @@
     android:text="@string/sort_button_text"
     android:layout_centerHorizontal="true"
     android:layout_marginTop="@dimen/margin_m"
+    style="@style/Button"
+    />
+
+  <TextView
+    android:id="@+id/sorting_message"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/sort_button"
+    android:text="@string/unsorted_msg"
     />
 
   <ListView
     android:id="@+id/cards_list"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_below="@id/sort_button"
+    android:layout_below="@id/sorting_message"
     />
 
 

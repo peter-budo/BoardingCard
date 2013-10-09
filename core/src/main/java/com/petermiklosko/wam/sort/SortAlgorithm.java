@@ -34,9 +34,7 @@ public class SortAlgorithm {
             arrivals.add(card.getArrival());
         }
 
-        if (departures.size() != new HashSet<String>(departures).size() && arrivals.size() != new HashSet<String>(arrivals).size()) {
-            return false;
-        } else {
+        if (departures.size() == new HashSet<String>(departures).size() && arrivals.size() == new HashSet<String>(arrivals).size()) {
             List<String> noPairDepartures = new ArrayList<String>(departures);
             List<String> noPairArrivals = new ArrayList<String>(arrivals);
 
@@ -45,6 +43,7 @@ public class SortAlgorithm {
             departureIndex = departures.lastIndexOf(noPairDepartures.get(0));
             return noPairDepartures.size() == 1 && noPairArrivals.size() == 1;
         }
+        return false;
     }
 }
 

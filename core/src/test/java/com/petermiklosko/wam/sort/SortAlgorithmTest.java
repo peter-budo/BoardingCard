@@ -44,7 +44,7 @@ public class SortAlgorithmTest {
 
     @Test
     public void tripShouldBeBrokenJourney() {
-        list.add(busCard);
+        list.add(new BusCard("Barcelona", "Madrid", "No seat assigned"));
         SortAlgorithm sort = new SortAlgorithm(list);
         assertEquals(false, sort.isFullJourney());
     }
