@@ -20,6 +20,7 @@
     android:layout_height="wrap_content"
     android:layout_below="@id/sort_button"
     android:text="@string/unsorted_msg"
+    style="@style/TextViewList.SortingMessage"
     />
 
   <ListView

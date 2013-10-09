@@ -1,6 +1,7 @@
 package com.petermiklosko.wam;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -51,6 +52,7 @@ public class MainActivity extends Activity {
     }
 
     private void refreshScreen() {
+        sortingMsg.setTextColor(getResources().getColor(R.color.white));
         sortingMsg.setText(getResources().getText(R.string.unsorted_msg));
         sortBtn.setVisibility(View.VISIBLE);
         populateList();
@@ -77,6 +79,7 @@ public class MainActivity extends Activity {
                 if (sort.isFullJourney()) {
                     sortCards();
                 } else {
+                    sortingMsg.setTextColor(Color.RED);
                     sortingMsg.setText(getResources().getText(R.string.broken_journey_msg));
                 }
             }

@@ -13,6 +13,13 @@
     <item name="android:layout_marginRight">@dimen/margin_l</item>
   </style>
 
+  <style name="TextViewList.SortingMessage">
+    <item name="android:textSize">@dimen/text_xl</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:paddingTop">@dimen/padding_m</item>
+    <item name="android:paddingBottom">@dimen/padding_m</item>
+  </style>
+
   <style name="Button">
     <item name="android:padding">@dimen/padding_s</item>
     <item name="android:background">@color/blue</item>
