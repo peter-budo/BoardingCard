@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <Button
+    android:id="@+id/sort_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/sort_button_text"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/margin_m"
+    />
+
+  <ListView
+    android:id="@+id/cards_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/sort_button"
+    />
+
+
+</RelativeLayout>

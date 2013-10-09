@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="TextViewList">
+    <item name="android:textSize">@dimen/text_l</item>
+    <item name="android:paddingTop">@dimen/padding_s</item>
+    <item name="android:paddingBottom">@dimen/padding_s</item>
+  </style>
+
+  <style name="TextViewList.Header">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:layout_marginRight">@dimen/margin_l</item>
+  </style>
+</resources>

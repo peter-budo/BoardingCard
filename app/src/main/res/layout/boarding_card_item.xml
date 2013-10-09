@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+  android:layout_width="match_parent" android:layout_height="match_parent">
+  <TextView
+    android:id="@+id/transportation_type"
+    style="@style/TextViewList.Header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+  <TextView
+    style="@style/TextViewList"
+    android:id="@+id/departure"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/transportation_type"
+    />
+  <TextView
+    android:id="@+id/arrival"
+    style="@style/TextViewList"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/transportation_type"
+    />
+
+
+</RelativeLayout>
