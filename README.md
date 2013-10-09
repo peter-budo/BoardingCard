@@ -9,4 +9,4 @@ BoardingCard Code Test
   6. Commit `git commit -am "Initial commit of .gitignore and README"`
   7. `git push origin master`
   8. New branch `git checkout -b develop`
-
+  9. Push to branch `git push origin develop`

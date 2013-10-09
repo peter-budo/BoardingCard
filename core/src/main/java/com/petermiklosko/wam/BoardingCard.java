@@ -1,6 +1,6 @@
 package com.petermiklosko.wam;
 
-public final class BoardingCard {
+public abstract class BoardingCard {
 
     private final String departure;
     private final String arrival;
@@ -32,14 +32,6 @@ public final class BoardingCard {
 
     @Override
     public String toString() {
-        return new StringBuilder("Take ")
-                .append(transport.toString())
-                .append(" from ")
-                .append(departure)
-                .append(" to ")
-                .append(arrival)
-                .append(", seat ")
-                .append(seatAssigned)
-                .toString();
+        return super.toString();
     }
 }

@@ -4,13 +4,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class BoardingCardTest {
+public class BusCardTest {
 
-    private String departure = "Madrid";
-    private String arrival = "Barcelona";
+    private String departure = "Barcelona";
+    private String arrival = "Gerona Airport";
     private Transport transport = Transport.BUS;
-    private String seatAssigned = "45B";
-    private BoardingCard boardingCard = new BoardingCard(departure, arrival, transport, seatAssigned);
+    private String seatAssigned = "45";
+    private BusCard boardingCard = new BusCard(departure, arrival, seatAssigned);
 
     @Test
     public void constructorShouldSetValues() {
