@@ -10,3 +10,9 @@ BoardingCard Code Test
   7. `git push origin master`
   8. New branch `git checkout -b develop`
   9. Push to branch `git push origin develop`
+  10. Sorting
+  11. `git push origin develop`
+  12. `git checkout master`
+  13. `git merge develop`
+  14. `git push origin master`
+  15. `git checkout -b android_ui`
